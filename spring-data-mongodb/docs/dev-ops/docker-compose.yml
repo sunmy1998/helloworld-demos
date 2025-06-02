@@ -1,0 +1,12 @@
+#  docker pull mongodb/mongodb-community-server:latest
+#  docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest
+
+version: '3.8'
+name: 'mongodb-community-server:latest'
+services:
+  mongodb:
+    image: mongodb/mongodb-community-server:latest
+    container_name: mongodb-community-server
+    ports:
+      - 27017:27017
+
