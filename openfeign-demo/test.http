@@ -1,0 +1,5 @@
+### address-service
+GET localhost:8081/address-service/address/1
+
+### employee-service
+GET localhost:8080/employee-service/employee/1
